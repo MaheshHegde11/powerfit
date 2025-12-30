@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PowerMax Fitness Gym</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-pink-100 via-purple-100 to-blue-100 text-gray-900">
+
+<!-- ================= NAVBAR (TOP) ================= -->
+<nav class="fixed top-0 w-full z-50 backdrop-blur-lg bg-white/70 shadow-lg">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    
+    <!-- Logo -->
+    <div class="flex items-center space-x-2">
+      <span class="text-3xl">💪</span>
+      <h1 class="text-2xl font-extrabold bg-gradient-to-r from-red-600 to-purple-600 bg-clip-text text-transparent">
+        PowerMax
+      </h1>
+    </div>
+
+    <!-- Links -->
+    <div class="hidden md:flex space-x-8 text-lg font-semibold">
+      <a href="#home" class="hover:text-red-600 transition">Home</a>
+      <a href="#about" class="hover:text-red-600 transition">About</a>
+      <a href="#programs" class="hover:text-red-600 transition">Programs</a>
+      <a href="#gallery" class="hover:text-red-600 transition">Gallery</a>
+      <a href="#contact" class="hover:text-red-600 transition">Contact</a>
+    </div>
+
+    <!-- CTA -->
+    <a href="#contact"
+       class="hidden md:inline-block bg-gradient-to-r from-red-500 to-pink-600 text-white px-6 py-2 rounded-full font-bold shadow hover:scale-105 transition">
+      Join Now
+    </a>
+  </div>
+</nav>
+
+
+<div class="h-20"></div>
+
+
+<header id="home" class="bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400 text-white">
+  <div class="max-w-7xl mx-auto px-6 py-28 text-center">
+    <h1 class="text-6xl font-extrabold mb-6 drop-shadow-xl">
+      PowerMax Fitness Gym
+    </h1>
+    <p class="text-2xl font-semibold mb-10">
+      Train Hard • Stay Fit • Live Strong
+    </p>
+    <a href="#contact"
+       class="bg-black/70 hover:bg-black/90 px-12 py-4 rounded-full text-xl font-bold transition shadow-lg">
+      Start Your Journey 💥
+    </a>
+  </div>
+</header>
+
+
+<section id="about" class="py-20">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
+    <div>
+      <h2 class="text-4xl font-bold mb-6 text-purple-700">About Our Gym</h2>
+      <p class="text-lg mb-6">
+        <b>PowerMax Fitness Gym</b> is a premium fitness destination offering
+        world-class equipment, expert trainers, and a motivating environment
+        to help you reach your goals.
+      </p>
+      <ul class="list-disc ml-6 space-y-3 text-lg">
+        <li>Advanced workout equipment</li>
+        <li>Certified personal trainers</li>
+        <li>Strength, cardio & yoga programs</li>
+        <li>Nutrition and lifestyle guidance</li>
+      </ul>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e"
+         alt="Gym Workout"
+         class="rounded-3xl shadow-2xl hover:scale-105 transition">
+  </div>
+</section>
+
+
+<section id="programs" class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-14 text-red-600">
+      Our Fitness Programs
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="bg-gradient-to-br from-red-500 to-pink-600 text-white p-8 rounded-3xl shadow-xl hover:scale-105 transition">
+        <h3 class="text-2xl font-bold mb-3">Weight Training</h3>
+        <p>Build muscle and strength with expert coaching.</p>
+        <p class="mt-4 text-xl font-bold">₹5000 / Month</p>
+      </div>
+
+      <div class="bg-gradient-to-br from-blue-500 to-purple-600 text-white p-8 rounded-3xl shadow-xl hover:scale-105 transition">
+        <h3 class="text-2xl font-bold mb-3">Cardio Training</h3>
+        <p>Boost stamina and burn calories efficiently.</p>
+        <p class="mt-4 text-xl font-bold">₹4000 / Month</p>
+      </div>
+
+      <div class="bg-gradient-to-br from-green-500 to-teal-500 text-white p-8 rounded-3xl shadow-xl hover:scale-105 transition">
+        <h3 class="text-2xl font-bold mb-3">Yoga & Flexibility</h3>
+        <p>Improve balance, flexibility, and mental health.</p>
+        <p class="mt-4 text-xl font-bold">₹3000 / Month</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="gallery" class="py-20">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-14 text-purple-700">
+      Gym Gallery & Workout Videos
+    </h2>
+
+  
+    <div class="grid md:grid-cols-3 gap-8 mb-16">
+      <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1"
+           class="rounded-2xl shadow-xl hover:scale-105 transition">
+
+      <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155"
+           class="rounded-2xl shadow-xl hover:scale-105 transition">
+
+      <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e"
+           class="rounded-2xl shadow-xl hover:scale-105 transition">
+    </div>
+
+ 
+    <div class="grid md:grid-cols-2 gap-10">
+      <iframe class="w-full h-72 rounded-2xl shadow-2xl"
+        src="https://www.youtube.com/embed/UoC_O3HzsH0"
+        allowfullscreen></iframe>
+
+      <iframe class="w-full h-72 rounded-2xl shadow-2xl"
+        src="https://www.youtube.com/embed/IT94xC35u6k"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="bg-gradient-to-r from-purple-700 via-pink-600 to-red-600 py-20 text-white">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-12">
+      Contact & Membership
+    </h2>
+
+    <form class="bg-white text-gray-900 p-10 rounded-3xl shadow-2xl space-y-6">
+      <input type="text" placeholder="Your Name"
+             class="w-full p-4 rounded-lg border">
+
+      <input type="email" placeholder="Your Email"
+             class="w-full p-4 rounded-lg border">
+
+      <select class="w-full p-4 rounded-lg border">
+        <option>Select Program</option>
+        <option>Weight Training</option>
+        <option>Cardio Training</option>
+        <option>Yoga</option>
+      </select>
+
+      <textarea rows="4" placeholder="Your Message"
+                class="w-full p-4 rounded-lg border"></textarea>
+
+      <button class="w-full bg-gradient-to-r from-red-600 to-pink-600 hover:opacity-90 text-white py-4 rounded-lg text-xl font-bold transition">
+        Submit
+      </button>
+    </form>
+  </div>
+</section>
+
+>
+<footer class="bg-black text-gray-300 text-center py-6">
+  <p class="text-lg">
+    © 2025 PowerMax Fitness Gym 
+  </p>
+</footer>
+
+</body>
+</html>
